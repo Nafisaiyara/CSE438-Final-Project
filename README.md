@@ -43,19 +43,6 @@ Standard Pseudo-Labeling: An iterative approach where the model generates masks 
 MixMatch: A method that blends unlabeled samples with labeled ones using MixUp and ensures the model produces low-entropy (confident) predictions across different image views.
 FixMatch: A consistency-based framework where the model is trained to predict the same mask for a "weakly augmented" version of a pill image and a "strongly augmented" version, using the weak prediction as a reliable target.
 
-
-Repository Structure
-
-├── segment_baselines/  # Configurations for YOLOv8, v11, and v12-seg
-
-├── ssl_implementations/# Modules for Pseudo-labeling, MixMatch, and FixMatch
-
-├── data/               # Scripts for loading the Roboflow pill dataset
-
-├── results/            # Comparison of segmentation masks and mAP scores
-
-└── README.md           # Project documentation
-
 Requirements
 
 Python 3.9+
