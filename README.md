@@ -6,11 +6,7 @@ Semester: Fall 2025 | Section: 3
 
 This repository contains our semester project for CSE438. Our work focuses on the Instance Segmentation of individual pills from a Roboflow dataset. We investigate the performance of state-of-the-art YOLO models and evaluate how semi-supervised methods—Standard Pseudo-Labeling, MixMatch, and FixMatch—can improve segmentation accuracy when labeled data is limited.
 
-Team Members
-
-Name
-
-Student and ID
+Team Members Name and Student ID
 
 Nafisa Saiyara Aranti (2022-1-60-060)
 
